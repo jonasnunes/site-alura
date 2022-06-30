@@ -12,3 +12,36 @@
 body
     height: 100vh
     width: 100vw
+    background-color: variables.$bg-color
+
+#corpo
+    width: 375px
+    
+    .header
+        border-top: 5px solid variables.$border
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 1rem
+
+        h1
+            font-family: variables.$lato-font
+            color: #fff
+            font-size: 3rem
+            font-weight: 300
+        
+        .header-button
+            display: flex
+            align-items: center
+            background-color: variables.$bg-button
+            padding: 1rem 1.2rem
+            border-radius: 2rem
+            height: 2.5rem
+            font-family: variables.$lato-font
+            font-size: .79rem
+            font-weight: 700
+            cursor: pointer
+            transition: .4s
+        
+        .header-button:hover
+            transform: translateY(-3px)
