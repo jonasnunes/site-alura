@@ -18,7 +18,7 @@ body {
 #corpo {
   width: 375px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #corpo {
     width: 768px;
   }
@@ -30,6 +30,11 @@ body {
   align-items: center;
   padding: 1rem;
   margin-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  #corpo .header {
+    width: 100%;
+  }
 }
 #corpo .header h2 {
   font-family: "Lato", sans-serif;
@@ -134,6 +139,21 @@ body {
 }
 #corpo .main .section-form .form a:hover {
   text-decoration: underline;
+}
+#corpo .main .section-cards {
+  margin-top: 2rem;
+}
+#corpo .main .section-cards h2, #corpo .main .section-cards p {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+#corpo .main .section-cards h2 {
+  font-size: 2em;
+}
+#corpo .main .section-cards p {
+  font-size: 0.9rem;
 }
 
 /*# sourceMappingURL=index.css.map */

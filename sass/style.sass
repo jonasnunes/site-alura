@@ -30,6 +30,9 @@ body
         padding: 1rem
         margin-bottom: 3rem
 
+        @include mixins.quebra1 
+            width: 100%
+
         h2
             font-family: variables.$lato-font
             color: #fff
@@ -133,3 +136,18 @@ body
                 
                 a:hover 
                     text-decoration: underline
+        
+        .section-cards
+            margin-top: 2rem
+
+            h2, p
+                color: #fff
+                text-align: center
+                padding-bottom: 1rem
+                font-family: variables.$open-sans-font
+
+            h2
+                font-size: 2em
+
+            p
+                font-size: .9rem
