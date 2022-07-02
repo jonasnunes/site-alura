@@ -139,6 +139,7 @@ body
         
         .section-cards
             margin-top: 2rem
+            font-family: variables.$inter-font
 
             h2, p
                 color: #fff
@@ -151,3 +152,131 @@ body
 
             p
                 font-size: .9rem
+
+            .container-cards
+                display: flex
+                flex-wrap: wrap
+
+                @include mixins.quebra1 
+                    justify-content: center
+
+                .card
+                    width: 48%
+                    border: 1px solid variables.$border-form
+                    border-radius: .3rem
+                    display: flex
+                    flex-direction: column
+                    padding: 1.5rem
+                    color: #fff
+                    height: 220px
+                    margin: .6%
+                    transition: .3s
+
+                    @include mixins.quebra1 
+                        width: 200px
+
+                    .programation
+                        color: variables.$color-card-programation
+
+                    i.programation 
+                        background-color: variables.$bg-icon-programation
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.3rem
+                        font-size: 1.5rem
+                    
+                    .frontend
+                        color: variables.$color-card-frontend
+
+                    i.frontend 
+                        background-color: variables.$bg-icon-frontend
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.3rem
+                        font-size: 1.5rem
+                    
+                    .datascience
+                        color: variables.$color-card-datascience
+
+                    i.datascience 
+                        background-color: variables.$bg-icon-datascience
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.25rem
+                        font-size: 1.5rem
+
+                    .devops
+                        color: variables.$color-card-devops
+
+                    i.devops 
+                        background-color: variables.$bg-icon-devops
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.25rem
+                        font-size: 1.5rem
+
+                    .design
+                        color: variables.$color-card-design
+
+                    i.design 
+                        background-color: variables.$bg-icon-design
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.25rem
+                        font-size: 1.5rem
+                    
+                    .mobile
+                        color: variables.$color-card-mobile
+
+                    i.mobile 
+                        background-color: variables.$bg-icon-mobile
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.25rem
+                        font-size: 1.5rem
+                    
+                    .inovation
+                        color: variables.$color-card-inovation
+
+                    i.inovation 
+                        background-color: variables.$bg-icon-inovation
+                        width: 30px
+                        height: 30px
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1.25rem
+                        font-size: 1.5rem
+
+                    p
+                        padding-bottom: 0
+                        text-align: left
+
+                    h5
+                        text-transform: uppercase
+                        padding-bottom: 1rem
+                    
+                    a
+                        font-size: .75rem
+                        color: #fff
+
+                    a:hover 
+                        text-decoration: underline

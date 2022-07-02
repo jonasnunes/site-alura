@@ -142,6 +142,7 @@ body {
 }
 #corpo .main .section-cards {
   margin-top: 2rem;
+  font-family: "Inter", sans-serif;
 }
 #corpo .main .section-cards h2, #corpo .main .section-cards p {
   color: #fff;
@@ -154,6 +155,138 @@ body {
 }
 #corpo .main .section-cards p {
   font-size: 0.9rem;
+}
+#corpo .main .section-cards .container-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  #corpo .main .section-cards .container-cards {
+    justify-content: center;
+  }
+}
+#corpo .main .section-cards .container-cards .card {
+  width: 48%;
+  border: 1px solid #167BF7;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: #fff;
+  height: 220px;
+  margin: 0.6%;
+  transition: 0.3s;
+}
+@media (min-width: 768px) {
+  #corpo .main .section-cards .container-cards .card {
+    width: 200px;
+  }
+}
+#corpo .main .section-cards .container-cards .card .programation {
+  color: #00C86F;
+}
+#corpo .main .section-cards .container-cards .card i.programation {
+  background-color: #03544C;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card .frontend {
+  color: #6BD1FF;
+}
+#corpo .main .section-cards .container-cards .card i.frontend {
+  background-color: #26577A;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card .datascience {
+  color: #8FC33A;
+}
+#corpo .main .section-cards .container-cards .card i.datascience {
+  background-color: #36583B;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card .devops {
+  color: #F16165;
+}
+#corpo .main .section-cards .container-cards .card i.devops {
+  background-color: #513349;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card .design {
+  color: #CE69B5;
+}
+#corpo .main .section-cards .container-cards .card i.design {
+  background-color: #4A3765;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card .mobile {
+  color: #FFBA05;
+}
+#corpo .main .section-cards .container-cards .card i.mobile {
+  background-color: #554F2A;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card .inovation {
+  color: #FF8C2A;
+}
+#corpo .main .section-cards .container-cards .card i.inovation {
+  background-color: #554136;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  font-size: 1.5rem;
+}
+#corpo .main .section-cards .container-cards .card p {
+  padding-bottom: 0;
+  text-align: left;
+}
+#corpo .main .section-cards .container-cards .card h5 {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+#corpo .main .section-cards .container-cards .card a {
+  font-size: 0.75rem;
+  color: #fff;
+}
+#corpo .main .section-cards .container-cards .card a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.css.map */
