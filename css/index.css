@@ -1,21 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-}
-
-body {
-  height: 100vh;
-  width: 100vw;
-  background-color: #051932;
-  display: flex;
-  justify-content: center;
-  border-top: 5px solid #2A7AE4;
-}
-
 #corpo {
   width: 375px;
 }
@@ -333,7 +315,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-#corpo .main .footer-div-1 p {
+#corpo .main .footer-div-1 a {
   font-size: 2.5em;
   color: #fff;
 }
