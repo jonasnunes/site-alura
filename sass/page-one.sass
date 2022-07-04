@@ -1,0 +1,114 @@
+@use 'variables'
+@use 'mixins'
+    
+#corpo
+    width: 375px
+    padding: 1.5rem 1rem
+    background-image: radial-gradient(circle at 95% 68%,#0a3871,#051933 58%)
+
+    .header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-family: variables.$inter-font
+        padding-bottom: 1rem
+
+        p
+            font-size: 2rem
+            color: #fff
+        
+        a
+            color: #fff
+        
+        .button-matricula
+            display: flex
+            align-items: center
+            background-color: variables.$bg-button
+            color: variables.$bg-color
+            padding: 1rem 1.2rem
+            border-radius: 2rem
+            height: 2.5rem
+            font-family: variables.$lato-font
+            font-size: .79rem
+            font-weight: 700
+            cursor: pointer
+            transition: .4s
+        
+        .button-matricula:hover
+            transform: translateY(-3px)
+    
+    .nav
+        border-block: 1px solid #fff
+        padding: 1rem
+        font-family: variables.$inter-font
+        text-transform: uppercase
+        display: flex
+        justify-content: space-between
+        margin-bottom: 4rem
+
+        a
+            color: #fff
+            font-size: .7rem
+            transition: .5s
+            width: 15%
+        
+        a:hover 
+            color: #b1b0b0
+
+    .presentation
+        font-family: variables.$inter-font
+        color: #fff
+
+        h2
+            font-size: 2.12rem
+            font-weight: 400
+            padding-bottom: 1rem
+
+        p
+            font-size: 1rem
+            line-height: 150%
+
+        .presentation-cards
+            margin-top: 3rem
+
+            button
+                border: 1px solid #0A3974
+                border-radius: .5rem
+                background-color: variables.$bg-color
+                width: 48%
+                padding: .8rem
+                margin-block: .8%
+                text-align: left
+                cursor: pointer
+                transition: .5s
+
+                p
+                    font-size: .68rem
+
+                p:last-child
+                    text-transform: uppercase
+                    font-size: .9rem
+            
+            button:hover
+                border: 1px solid variables.$border-hover
+
+            .programation
+                color: variables.$color-card-programation
+
+            .frontend
+                color: variables.$color-card-frontend
+            
+            .datascience
+                color: variables.$color-card-datascience
+            
+            .devops
+                color: variables.$color-card-devops
+            
+            .design
+                color: variables.$color-card-design
+            
+            .mobile
+                color: variables.$color-card-mobile
+            
+            .inovation
+                color: variables.$color-card-inovation

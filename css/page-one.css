@@ -1,3 +1,114 @@
-
+#corpo {
+  width: 375px;
+  padding: 1.5rem 1rem;
+  background-image: radial-gradient(circle at 95% 68%, #0a3871, #051933 58%);
+}
+#corpo .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 1rem;
+}
+#corpo .header p {
+  font-size: 2rem;
+  color: #fff;
+}
+#corpo .header a {
+  color: #fff;
+}
+#corpo .header .button-matricula {
+  display: flex;
+  align-items: center;
+  background-color: #A3FFBF;
+  color: #051932;
+  padding: 1rem 1.2rem;
+  border-radius: 2rem;
+  height: 2.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 0.79rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#corpo .header .button-matricula:hover {
+  transform: translateY(-3px);
+}
+#corpo .nav {
+  border-block: 1px solid #fff;
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+#corpo .nav a {
+  color: #fff;
+  font-size: 0.7rem;
+  transition: 0.5s;
+  width: 15%;
+}
+#corpo .nav a:hover {
+  color: #b1b0b0;
+}
+#corpo .presentation {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+#corpo .presentation h2 {
+  font-size: 2.12rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+#corpo .presentation p {
+  font-size: 1rem;
+  line-height: 150%;
+}
+#corpo .presentation .presentation-cards {
+  margin-top: 3rem;
+}
+#corpo .presentation .presentation-cards button {
+  border: 1px solid #0A3974;
+  border-radius: 0.5rem;
+  background-color: #051932;
+  width: 48%;
+  padding: 0.8rem;
+  margin-block: 0.8%;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#corpo .presentation .presentation-cards button p {
+  font-size: 0.68rem;
+}
+#corpo .presentation .presentation-cards button p:last-child {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+#corpo .presentation .presentation-cards button:hover {
+  border: 1px solid #308dff;
+}
+#corpo .presentation .presentation-cards .programation {
+  color: #00C86F;
+}
+#corpo .presentation .presentation-cards .frontend {
+  color: #6BD1FF;
+}
+#corpo .presentation .presentation-cards .datascience {
+  color: #8FC33A;
+}
+#corpo .presentation .presentation-cards .devops {
+  color: #F16165;
+}
+#corpo .presentation .presentation-cards .design {
+  color: #CE69B5;
+}
+#corpo .presentation .presentation-cards .mobile {
+  color: #FFBA05;
+}
+#corpo .presentation .presentation-cards .inovation {
+  color: #FF8C2A;
+}
 
 /*# sourceMappingURL=page-one.css.map */
