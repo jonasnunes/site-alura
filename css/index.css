@@ -19,7 +19,7 @@ body {
 #corpo {
   width: 375px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #corpo {
     width: 768px;
   }
@@ -31,7 +31,7 @@ body {
   padding: 1rem;
   margin-bottom: 3rem;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #corpo .header {
     width: 100%;
   }
@@ -161,7 +161,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #corpo .main .section-cards .container-cards {
     justify-content: center;
   }
@@ -177,11 +177,6 @@ body {
   height: 220px;
   margin: 0.6%;
   transition: 0.3s;
-}
-@media (min-width: 768px) {
-  #corpo .main .section-cards .container-cards .card {
-    width: 200px;
-  }
 }
 #corpo .main .section-cards .container-cards .card .programation {
   color: #00C86F;
