@@ -189,7 +189,7 @@
         padding-block: 2.5rem
 
         p.title
-            color: #167bf7
+            color: variables.$title-p
         
         p.big-title
             font-size: 1.8rem
@@ -349,3 +349,50 @@
                     font-size: .8rem
                     text-decoration: underline
 
+    .divers
+        background-color: #eee
+        margin-inline: -1rem
+        padding: 3rem 1rem
+        font-family: variables.$inter-font
+
+        p.title
+            color: variables.$title-p
+
+        p.big-title
+            font-size: 2rem
+            padding-block: 1rem
+            color: variables.$bg-color
+        
+        p.description 
+            color: variables.$bg-color
+            line-height: 150%
+        
+        &-depoiments
+            box-shadow: 0 1.25em 1.25em 0 rgba(120,135,182,.12)
+            border: solid .0625em #ecf5ff
+            border-radius: .4em
+            width: 90%
+            margin: 3rem auto
+            padding: 2rem 1rem
+            position: relative
+
+            .bi-emoji-smile-fill
+                color: variables.$bg-color
+                position: absolute
+                top: -10%
+                font-size: 1.5rem
+                border: 2px solid variables.$bg-color
+                border-radius: 50%
+                padding: .5rem
+                width: 45px
+                height: 45px
+                display: flex
+                align-items: center
+                justify-content: center
+            
+            .cite
+                line-height: 150%
+            
+            p.name 
+                padding-top: 1rem
+                font-weight: 700

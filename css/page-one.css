@@ -345,5 +345,53 @@
   font-size: 0.8rem;
   text-decoration: underline;
 }
+#corpo .divers {
+  background-color: #eee;
+  margin-inline: -1rem;
+  padding: 3rem 1rem;
+  font-family: "Inter", sans-serif;
+}
+#corpo .divers p.title {
+  color: #167bf7;
+}
+#corpo .divers p.big-title {
+  font-size: 2rem;
+  padding-block: 1rem;
+  color: #051932;
+}
+#corpo .divers p.description {
+  color: #051932;
+  line-height: 150%;
+}
+#corpo .divers-depoiments {
+  box-shadow: 0 1.25em 1.25em 0 rgba(120, 135, 182, 0.12);
+  border: solid 0.0625em #ecf5ff;
+  border-radius: 0.4em;
+  width: 90%;
+  margin: 3rem auto;
+  padding: 2rem 1rem;
+  position: relative;
+}
+#corpo .divers-depoiments .bi-emoji-smile-fill {
+  color: #051932;
+  position: absolute;
+  top: -10%;
+  font-size: 1.5rem;
+  border: 2px solid #051932;
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#corpo .divers-depoiments .cite {
+  line-height: 150%;
+}
+#corpo .divers-depoiments p.name {
+  padding-top: 1rem;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=page-one.css.map */
