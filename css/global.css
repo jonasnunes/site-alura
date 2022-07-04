@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #051932;
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid #2A7AE4;
+}
+
+/*# sourceMappingURL=global.css.map */

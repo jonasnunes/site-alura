@@ -36,7 +36,7 @@ body {
     width: 100%;
   }
 }
-#corpo .header h2 {
+#corpo .header a {
   font-family: "Lato", sans-serif;
   color: #fff;
   font-size: 3rem;

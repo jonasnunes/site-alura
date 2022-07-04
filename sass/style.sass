@@ -1,22 +1,3 @@
-@use 'variables'
-@use 'mixins'
-
-*
-    margin: 0
-    padding: 0
-    box-sizing: border-box
-    list-style: none
-    text-decoration: none
-    border: none
-
-body
-    height: 100vh
-    width: 100vw
-    background-color: variables.$bg-color
-    display: flex
-    justify-content: center
-    border-top: 5px solid variables.$border
-
 #corpo
     width: 375px
 
@@ -33,7 +14,7 @@ body
         @include mixins.quebra1 
             width: 100%
 
-        h2
+        a
             font-family: variables.$lato-font
             color: #fff
             font-size: 3rem
