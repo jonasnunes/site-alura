@@ -3,6 +3,11 @@
   padding: 1.5rem 1rem;
   background-image: radial-gradient(circle at 95% 68%, #0a3871, #051933 58%);
 }
+@media (max-width: 768px) {
+  #corpo {
+    width: 768px;
+  }
+}
 #corpo .header {
   display: flex;
   justify-content: space-between;
@@ -55,6 +60,7 @@
 #corpo .presentation {
   font-family: "Inter", sans-serif;
   color: #fff;
+  margin-bottom: 15rem;
 }
 #corpo .presentation h2 {
   font-size: 2.12rem;
@@ -109,6 +115,67 @@
 }
 #corpo .presentation .presentation-cards .inovation {
   color: #FF8C2A;
+}
+#corpo .know-more {
+  background-color: #eee;
+  position: relative;
+  padding-top: 12rem;
+  margin-inline: -1rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #051932;
+}
+#corpo .know-more .iframe {
+  position: absolute;
+  top: -15%;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0.25em 0.25em 1.25em 0 rgba(120, 135, 182, 0.3);
+}
+#corpo .know-more-presentation {
+  padding: 1rem;
+}
+#corpo .know-more-presentation h2 {
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
+}
+#corpo .know-more-presentation .presentation-p {
+  padding-bottom: 2rem;
+  line-height: 150%;
+}
+#corpo .know-more-presentation button {
+  background-color: #A3FFBF;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 90%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #051932;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0.285em 0.571em 0;
+}
+#corpo .know-more-presentation-more {
+  margin-top: 2rem;
+}
+#corpo .know-more-presentation-more div i {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+#corpo .know-more-presentation-more div .title-p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+#corpo .know-more-presentation-more div .description-p {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=page-one.css.map */
