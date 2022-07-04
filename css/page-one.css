@@ -177,5 +177,173 @@
   padding-bottom: 1rem;
   line-height: 150%;
 }
+#corpo .formations {
+  background-image: url(../assets/leme-alura-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 130% -4%;
+  font-family: "Inter", sans-serif;
+  padding-block: 2.5rem;
+}
+#corpo .formations p.title {
+  color: #167bf7;
+}
+#corpo .formations p.big-title {
+  font-size: 1.8rem;
+  padding-block: 1rem;
+  color: #fff;
+  width: 80%;
+}
+#corpo .formations p.description {
+  color: #fff;
+  line-height: 150%;
+  width: 80%;
+}
+#corpo .formations-school {
+  padding-block: 2rem;
+}
+#corpo .formations-school-container {
+  padding-block: 1rem;
+}
+#corpo .formations-school-container header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+#corpo .formations-school-container header .programation {
+  color: #00C86F;
+}
+#corpo .formations-school-container header i.programation {
+  background-color: #03544C;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+#corpo .formations-school-container header p.programation {
+  color: #00C86F;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container header .frontend {
+  color: #6BD1FF;
+}
+#corpo .formations-school-container header i.frontend {
+  background-color: #26577A;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .formations-school-container header p.frontend {
+  color: #6BD1FF;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container header .datascience {
+  color: #8FC33A;
+}
+#corpo .formations-school-container header i.datascience {
+  background-color: #36583B;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .formations-school-container header p.devops {
+  color: #F16165;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container header .devops {
+  color: #F16165;
+}
+#corpo .formations-school-container header i.devops {
+  background-color: #513349;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .formations-school-container header p.devops {
+  color: #F16165;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container header .design {
+  color: #CE69B5;
+}
+#corpo .formations-school-container header i.design {
+  background-color: #4A3765;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .formations-school-container header p.design {
+  color: #CE69B5;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container header .mobile {
+  color: #FFBA05;
+}
+#corpo .formations-school-container header i.mobile {
+  background-color: #554F2A;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .formations-school-container header p.mobile {
+  color: #FFBA05;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container header .inovation {
+  color: #FF8C2A;
+}
+#corpo .formations-school-container header i.inovation {
+  background-color: #554136;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+}
+#corpo .formations-school-container header p.inovation {
+  color: #FF8C2A;
+  text-transform: uppercase;
+}
+#corpo .formations-school-container ul li {
+  padding-top: 0.8rem;
+}
+#corpo .formations-school-container ul li a {
+  font-size: 0.9rem;
+  color: #fff;
+  transition: 0.5s;
+}
+#corpo .formations-school-container ul li a:hover {
+  color: #b1b0b0;
+}
+#corpo .formations-school-container a.show-school {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=page-one.css.map */
