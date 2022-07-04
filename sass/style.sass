@@ -155,6 +155,7 @@ body
 
             .container-cards
                 display: flex
+                justify-content: center
                 flex-wrap: wrap
 
                 @include mixins.quebra1 
@@ -280,3 +281,94 @@ body
 
                     a:hover 
                         text-decoration: underline
+        
+        .container-subscribe
+            background-color: variables.$bg-container
+            height: 12.5em
+            width: 100%
+            margin-block: 7.5em 2em
+            position: relative
+
+            display: flex
+            justify-content: center
+
+            .subscribe
+                background-image: url(../assets/background-default.svg)
+                background-repeat: no-repeat
+                background-size: 110% 120%
+                background-position: 50%
+
+                width: 95%
+                padding: 2.5em 2.5em 3em
+                border-radius: .3rem
+                position: absolute
+                top: -50%
+                font-family: variables.$inter-font
+
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                h2, p
+                    font-size: 1.38rem
+                    color: #fff
+                    text-align: center
+
+                a
+                    background-color: #fff
+                    color: variables.$bg-subscribe
+                    padding: 1rem
+                    border-radius: 1.5rem
+                    text-transform: uppercase
+                    font-weight: 700
+                    margin-top: 1.5rem
+        
+        .footer
+            border-top: 1px solid #fff
+            width: 100%
+            padding: 1.5rem
+            font-family: variables.$inter-font
+
+            &-div-1 
+                display: flex
+                justify-content: space-between
+                
+                p
+                    font-size: 2.5em
+                    color: #fff
+                
+                ul li
+                    line-height: 180%
+
+                    a
+                        color: #fff
+                        text-transform: uppercase
+                        font-size: .8rem
+
+            &-div-2 
+                display: flex
+                justify-content: space-between
+                padding-top: 1rem
+
+                .footer-p
+                    color: #fff
+                    text-transform: uppercase
+                    padding-bottom: 1.5rem
+                    font-size: .8rem
+                    font-weight: 700
+                
+                ul
+                    display: flex
+
+                    li
+                        margin-right: .5rem
+
+                        a
+                            background-color: #fff
+                            padding: .5rem
+                            border-radius: 50%
+                            width: 30px
+                            height: 30px
+                            color: variables.$bg-color
+                            font-size: 1.2rem
