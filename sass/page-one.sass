@@ -432,7 +432,7 @@
             position: relative
             border-top: 12px solid #051945
             border-radius: .3rem
-            background-color: #051e3d
+            background-color: variables.$bg-depoiments
             padding: 2em
             margin-bottom: 4rem
 
@@ -449,7 +449,7 @@
                 padding: .2em 2em
                 font-size: .9rem
                 border-radius: 0 0 4px 4px
-                background-color: #051933
+                background-color: variables.$bg-color
 
             p.title 
                 font-size: 1rem
@@ -511,16 +511,16 @@
 
         p.title
             font-family: "Courier New", monospace
-            color: #167bf7
+            color: variables.$color-title
             margin: 1.875em 0 .7em
 
         p.big-title
             font-size: 1.75rem
-            color: #093366
+            color: variables.$color-paragraph
             margin-bottom: .5em
 
         p.description
-            color: #093366
+            color: variables.$color-paragraph
             line-height: 1.4
 
         &-depoiments
@@ -546,7 +546,7 @@
         a
             width: 100%
             border-radius: 2.285em
-            background-color: #a3ffbf
+            background-color: variables.$bg-button
             text-decoration: none
             text-align: center
             color: #051933
@@ -565,3 +565,41 @@
             box-shadow: 0 3px 11px 0 rgba(38,94,142,.2)
             -webkit-transform: translateY(1px)
             transform: translateY(1px)
+
+    .companies-using-alura
+        background-color: variables.$bg-color
+        padding: 2.5em
+        font-family: variables.$inter-font
+
+        p
+            margin-bottom: 1.5em
+            color: #fff
+            font-size: 1.5rem
+            text-align: center
+            line-height: 1.47
+            letter-spacing: -.3px
+
+        a
+            color: #fff
+            text-decoration: underline
+            margin-top: .85rem
+            font-size: .85rem
+            text-align: center
+            display: block
+
+        .companies-list
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-wrap: wrap
+
+            li
+                display: flex
+                justify-content: center
+                align-items: center
+                flex-basis: 40%
+                margin: 5%
+
+            img
+                border: none
+                max-width: 100%
