@@ -445,7 +445,7 @@
   padding: 0.2em 2em;
   font-size: 0.9rem;
   border-radius: 0 0 4px 4px;
-  background-color: #051933;
+  background-color: #051932;
 }
 #corpo .stories-container-div p.title {
   font-size: 1rem;
@@ -542,7 +542,7 @@
 #corpo .business a {
   width: 100%;
   border-radius: 2.285em;
-  background-color: #a3ffbf;
+  background-color: #A3FFBF;
   text-decoration: none;
   text-align: center;
   color: #051933;
@@ -561,6 +561,44 @@
   box-shadow: 0 3px 11px 0 rgba(38, 94, 142, 0.2);
   -webkit-transform: translateY(1px);
   transform: translateY(1px);
+}
+#corpo .companies-using-alura {
+  background-color: #051932;
+  padding: 2.5em;
+  font-family: "Inter", sans-serif;
+}
+#corpo .companies-using-alura p {
+  margin-bottom: 1.5em;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.47;
+  letter-spacing: -0.3px;
+}
+#corpo .companies-using-alura a {
+  color: #fff;
+  text-decoration: underline;
+  margin-top: 0.85rem;
+  font-size: 0.85rem;
+  text-align: center;
+  display: block;
+}
+#corpo .companies-using-alura .companies-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#corpo .companies-using-alura .companies-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
+  margin: 5%;
+}
+#corpo .companies-using-alura .companies-list img {
+  border: none;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=page-one.css.map */
