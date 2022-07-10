@@ -700,7 +700,7 @@
   text-transform: uppercase;
   color: white;
 }
-#corpo .mobile {
+#corpo .mobile-section {
   background-color: #051932;
   padding: 3.75em 0;
   background-image: radial-gradient(circle at 47% 59%, #093366, #051933 60%);
@@ -709,23 +709,23 @@
   margin-inline: -1rem;
   padding-inline: 1rem;
 }
-#corpo .mobile-info {
+#corpo .mobile-section-info {
   display: flex;
   flex-direction: column;
   letter-spacing: -0.2px;
   align-items: self-start;
   margin-top: 30px;
 }
-#corpo .mobile-info p.title {
+#corpo .mobile-section-info p.title {
   font-size: 1.75rem;
   color: #167bf7;
 }
-#corpo .mobile-info p {
+#corpo .mobile-section-info p {
   margin-top: 0.312em;
   line-height: 1.4;
   color: #fff;
 }
-#corpo .mobile-buttons {
+#corpo .mobile-section-buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -733,7 +733,7 @@
   margin-top: 2rem;
   gap: 1rem;
 }
-#corpo .mobile-buttons button {
+#corpo .mobile-section-buttons .mobile-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -747,10 +747,10 @@
   font-size: 1rem;
   color: #fff;
 }
-#corpo .mobile-buttons button i {
+#corpo .mobile-section-buttons .mobile-btn i {
   font-size: 2.5rem;
 }
-#corpo .mobile-buttons button:hover {
+#corpo .mobile-section-buttons .mobile-btn:hover {
   transform: translateY(1px);
 }
 
