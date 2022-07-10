@@ -625,12 +625,10 @@
   line-height: 1.875rem;
   width: 80%;
 }
-#corpo .alura-cases-glider_track {
-  display: flex;
-  z-index: 1;
+#corpo .alura-cases .container-cards {
   margin-block: 3rem;
 }
-#corpo .alura-cases-glider_track .alura-cases-cards {
+#corpo .alura-cases .container-cards .alura-cases-cards {
   position: relative;
   background-size: cover;
   background-position: center;
@@ -651,45 +649,46 @@
   border: 2px solid #A56CFF;
   padding: 1.5rem;
   box-shadow: 11px 11px 24px rgba(120, 135, 182, 0.15);
+  margin-bottom: 2rem;
 }
-#corpo .alura-cases-glider_track .alura-cases-cards .name {
+#corpo .alura-cases .container-cards .alura-cases-cards .name {
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2.5px;
 }
-#corpo .alura-cases-glider_track .alura-cases-cards .role {
+#corpo .alura-cases .container-cards .alura-cases-cards .role {
   font-weight: 300;
   margin-top: 0.4375rem;
   max-width: 200px;
   text-align: center;
 }
-#corpo .alura-cases-glider_track .alura-cases-cards .logo {
+#corpo .alura-cases .container-cards .alura-cases-cards .logo {
   margin-top: 1.875rem;
   max-width: 130px;
 }
-#corpo .alura-cases-glider_track .alura-cases-cards .logo img {
+#corpo .alura-cases .container-cards .alura-cases-cards .logo img {
   max-width: 100%;
 }
-#corpo .alura-cases-glider_track .bg-card1 {
+#corpo .alura-cases .container-cards .bg-card1 {
   background-image: url(../assets/roberta_arcoverde.jpg);
 }
-#corpo .alura-cases-glider_track .bg-card2 {
+#corpo .alura-cases .container-cards .bg-card2 {
   background-image: url(../assets/isabela_goncalves.jpg);
 }
-#corpo .alura-cases-glider_track .bg-card3 {
+#corpo .alura-cases .container-cards .bg-card3 {
   background-image: url(../assets/renan_martins.jpg);
 }
-#corpo .alura-cases-glider_track .bg-card4 {
+#corpo .alura-cases .container-cards .bg-card4 {
   background-image: url(../assets/marco_aurelio.jpg);
 }
-#corpo .alura-cases-glider_track .bg-card5 {
+#corpo .alura-cases .container-cards .bg-card5 {
   background-image: url(../assets/ana_genari.jpg);
 }
-#corpo .alura-cases-glider_track .bg-card6 {
+#corpo .alura-cases .container-cards .bg-card6 {
   background-image: url(../assets/eduardo_amaral.jpg);
 }
-#corpo .alura-cases a {
+#corpo .alura-cases a.button-cases {
   display: block;
   background-color: #091932;
   padding: 1rem;
@@ -700,6 +699,59 @@
   text-align: center;
   text-transform: uppercase;
   color: white;
+}
+#corpo .mobile {
+  background-color: #051932;
+  padding: 3.75em 0;
+  background-image: radial-gradient(circle at 47% 59%, #093366, #051933 60%);
+  font-family: "Inter", sans-serif;
+  margin-top: -3rem;
+  margin-inline: -1rem;
+  padding-inline: 1rem;
+}
+#corpo .mobile-info {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: -0.2px;
+  align-items: self-start;
+  margin-top: 30px;
+}
+#corpo .mobile-info p.title {
+  font-size: 1.75rem;
+  color: #167bf7;
+}
+#corpo .mobile-info p {
+  margin-top: 0.312em;
+  line-height: 1.4;
+  color: #fff;
+}
+#corpo .mobile-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+#corpo .mobile-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  height: 3.75em;
+  background-color: #536f90;
+  transition: all 0.3s ease;
+  border-radius: 2.875em;
+  width: 100%;
+  box-shadow: 4px 4px 20px 0 rgba(120, 135, 182, 0.12);
+  font-size: 1rem;
+  color: #fff;
+}
+#corpo .mobile-buttons button i {
+  font-size: 2.5rem;
+}
+#corpo .mobile-buttons button:hover {
+  transform: translateY(1px);
 }
 
 /*# sourceMappingURL=page-one.css.map */

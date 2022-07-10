@@ -629,9 +629,7 @@
             line-height: 1.875rem
             width: 80%
 
-        &-glider_track
-            display: flex
-            z-index: 1
+        .container-cards
             margin-block: 3rem
 
             .alura-cases-cards
@@ -655,6 +653,7 @@
                 border: 2px solid #A56CFF
                 padding: 1.5rem
                 box-shadow: 11px 11px 24px rgba(120,135,182,.15)
+                margin-bottom: 2rem
 
                 .name
                     font-weight: 400
@@ -693,7 +692,7 @@
             .bg-card6
                 background-image: url(../assets/eduardo_amaral.jpg)
 
-        a
+        a.button-cases
             display: block
             background-color: #091932
             padding: 1rem
@@ -704,3 +703,56 @@
             text-align: center
             text-transform: uppercase
             color: white
+
+    .mobile
+        background-color: variables.$bg-color
+        padding: 3.75em 0
+        background-image: radial-gradient(circle at 47% 59%,#093366,#051933 60%)
+        font-family: variables.$inter-font
+        margin-top: -3rem
+        margin-inline: -1rem
+        padding-inline: 1rem
+
+        &-info
+            display: flex
+            flex-direction: column
+            letter-spacing: -.2px
+            align-items: self-start
+            margin-top: 30px
+
+            p.title
+                font-size: 1.75rem
+                color: variables.$color-title
+
+            p
+                margin-top: .312em
+                line-height: 1.4
+                color: #fff
+
+        &-buttons
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin-top: 2rem
+            gap: 1rem
+
+            button
+                display: flex
+                justify-content: center
+                align-items: center
+                gap: .3rem
+                height: 3.75em
+                background-color: #536f90
+                transition: all 0.3s ease
+                border-radius: 2.875em
+                width: 100%
+                box-shadow: 4px 4px 20px 0 rgba(120,135,182,.12)
+                font-size: 1rem
+                color: #fff
+
+                i
+                    font-size: 2.5rem
+
+            button:hover
+                transform: translateY(1px)
