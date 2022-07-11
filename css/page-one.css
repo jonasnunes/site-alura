@@ -945,5 +945,38 @@ a.button-link {
 #corpo .footer .container-dl dl .button-receber:hover {
   border-color: #167bf7;
 }
+#corpo .courses {
+  background-color: #031326;
+  margin-inline: -1rem;
+  padding: 2.5rem 4rem;
+  font-family: "Inter", sans-serif;
+}
+#corpo .courses p.title {
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+#corpo .courses dt a {
+  color: #fff;
+  font-weight: 700;
+  transition: 0.3s;
+}
+#corpo .courses dt a:hover {
+  color: #b1b0b0;
+}
+#corpo .courses dd,
+#corpo .courses dd a {
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 150%;
+  transition: 0.3s;
+}
+#corpo .courses dd a:hover {
+  color: #b1b0b0;
+}
+#corpo .courses dd {
+  margin-bottom: 1rem;
+}
 
 /*# sourceMappingURL=page-one.css.map */
