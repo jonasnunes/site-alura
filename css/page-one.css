@@ -838,11 +838,112 @@ a.button-link {
 }
 #corpo .prices .prices-link {
   display: block;
-  padding-top: 2rem;
+  padding-block: 2rem;
   color: #093366;
   font-size: 0.875rem;
   text-align: center;
   text-decoration: underline;
+}
+#corpo .advantages {
+  padding: 4.132em 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  color: #e5f1ff;
+  background-color: #093366;
+  margin-inline: -1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+#corpo .advantages-div {
+  text-align: center;
+  line-height: 180%;
+  width: 60%;
+}
+#corpo .footer {
+  padding: 2.5rem 3rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+#corpo .footer-header h2.title {
+  padding-block: 2rem 1.5rem;
+}
+#corpo .footer-header .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+#corpo .footer-header .list .bi {
+  font-size: 1.2rem;
+  color: #093366;
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+#corpo .footer .container-dl {
+  margin-block: 4.5rem 2rem;
+  text-align: left;
+}
+#corpo .footer .container-dl dl {
+  padding-bottom: 2rem;
+}
+#corpo .footer .container-dl dl dt {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+#corpo .footer .container-dl dl dd {
+  line-height: 250%;
+}
+#corpo .footer .container-dl dl dd a {
+  color: #fff;
+  font-size: 0.875rem;
+  transition: 0.5s;
+}
+#corpo .footer .container-dl dl dd a:hover {
+  color: #b1b0b0;
+}
+#corpo .footer .container-dl dl #button-whatsapp {
+  display: flex;
+  align-items: center;
+  border: 2px solid #34af23;
+  background-color: transparent;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  height: 40px;
+}
+#corpo .footer .container-dl dl .button-receber {
+  background-color: #051932;
+  display: flex;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  color: #fff;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+#corpo .footer .container-dl dl .button-receber input {
+  width: 70%;
+  border: none;
+  background-color: transparent;
+}
+#corpo .footer .container-dl dl .button-receber input:focus {
+  border-color: transparent;
+}
+#corpo .footer .container-dl dl .button-receber input::placeholder {
+  color: #ddd;
+  font-size: 0.875rem;
+}
+#corpo .footer .container-dl dl .button-receber:hover {
+  border-color: #167bf7;
 }
 
 /*# sourceMappingURL=page-one.css.map */
