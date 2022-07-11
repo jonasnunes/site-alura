@@ -919,6 +919,11 @@ a.button-link {
   font-size: 0.75rem;
   height: 40px;
 }
+#corpo .footer .container-dl dl #button-whatsapp .bi-whatsapp {
+  color: #34af23;
+  font-size: 1rem;
+  margin-right: 5px;
+}
 #corpo .footer .container-dl dl .button-receber {
   background-color: #051932;
   display: flex;
@@ -930,15 +935,15 @@ a.button-link {
   font-size: 0.875rem;
   transition: 0.3s;
 }
-#corpo .footer .container-dl dl .button-receber input {
+#corpo .footer .container-dl dl .button-receber .input {
   width: 70%;
   border: none;
   background-color: transparent;
 }
-#corpo .footer .container-dl dl .button-receber input:focus {
-  border-color: transparent;
+#corpo .footer .container-dl dl .button-receber .input:focus {
+  border: none;
 }
-#corpo .footer .container-dl dl .button-receber input::placeholder {
+#corpo .footer .container-dl dl .button-receber .input::placeholder {
   color: #ddd;
   font-size: 0.875rem;
 }
