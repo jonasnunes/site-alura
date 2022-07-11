@@ -1,5 +1,23 @@
 @use 'variables'
 @use 'mixins'
+
+a.button-link
+    width: 100%
+    border-radius: 2.285em
+    background-color: variables.$bg-button
+    text-decoration: none
+    text-align: center
+    color: #051933
+    padding: 1.428em
+    text-transform: uppercase
+    font-weight: bold
+    font-size: .875rem
+    max-width: 19.3em
+    margin: 4.2em auto 0
+    display: block
+    box-shadow: 0 .357em .714em 0 rgba(38,94,142,.2)
+    -webkit-transition: all 0.3s ease
+    transition: all 0.3s ease
     
 #corpo
     width: 375px
@@ -464,6 +482,10 @@
                 color: #fff
                 font-size: .9rem
                 text-decoration: underline
+
+            iframe
+                display: block
+                margin: auto
         
         &-container-div2
             position: relative
@@ -542,24 +564,6 @@
 
             p.description
                 font-size: .875em
-
-        a
-            width: 100%
-            border-radius: 2.285em
-            background-color: variables.$bg-button
-            text-decoration: none
-            text-align: center
-            color: #051933
-            padding: 1.428em
-            text-transform: uppercase
-            font-weight: bold
-            font-size: .875rem
-            max-width: 19.3em
-            margin: 4.2em auto 0
-            display: block
-            box-shadow: 0 .357em .714em 0 rgba(38,94,142,.2)
-            -webkit-transition: all 0.3s ease
-            transition: all 0.3s ease
 
         a:hover
             box-shadow: 0 3px 11px 0 rgba(38,94,142,.2)
@@ -756,3 +760,90 @@
 
             .mobile-btn:hover
                 transform: translateY(1px)
+
+    .prices
+        background-color: #fff
+        font-family: variables.$inter-font
+        margin-inline: -1rem
+        padding: 1rem
+
+        h2.title
+            padding-top: 70px
+            font-size: 1.5rem
+            font-weight: 400
+            color: variables.$color-title
+            text-align: center
+            letter-spacing: -.018em
+
+        .payments
+            background-image: url(../assets/icon-plan-premium-2.svg)
+            background-repeat: no-repeat
+            width: 90%
+            margin-block: 2rem
+            margin-inline: auto
+            padding: 2.5rem 2rem
+            background-color: #fff
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            box-shadow: 0 0 10px 0 rgba(120,135,182,.3)
+            border-radius: 1px
+
+            &-header
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                line-height: 250%
+                margin-bottom: 1rem
+
+                h3
+                    text-transform: uppercase
+                    color: variables.$color-title
+                    font-weight: 400
+
+            &-section
+                line-height: 220%
+                color: variables.$color-paragraph
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+
+                p.title
+                    display: flex
+                    align-items: center
+
+                    span
+                        font-size: 2.188rem
+                        letter-spacing: .001em
+            &-list
+
+                li
+                    display: flex
+                    gap: 1rem
+                    font-size: .875rem
+                    color: variables.$color-paragraph
+                    padding-bottom: .5rem
+                    margin-top: 1rem
+
+                    .bi-check-lg
+                        color: variables.$color-title
+                        height: 12px
+                        width: 15px
+                        font-size: 1.2rem
+
+                    .off
+                        color: #dce5f1
+
+        section.pro
+            border-top: 12px solid variables.$color-title
+
+        .prices-link
+            display: block
+            padding-top: 2rem
+            color: variables.$color-paragraph
+            font-size: .875rem
+            text-align: center
+            text-decoration: underline
