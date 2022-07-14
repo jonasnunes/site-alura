@@ -14,6 +14,27 @@ body {
   display: flex;
   justify-content: center;
   border-top: 5px solid #2A7AE4;
+  font-family: "Inter", sans-serif;
+}
+
+.button-link {
+  width: 100%;
+  border-radius: 2.285em;
+  background-color: #A3FFBF;
+  text-decoration: none;
+  text-align: center;
+  color: #051932;
+  padding: 1.428em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.875rem;
+  max-width: 19.3em;
+  margin: 2em auto 0;
+  display: block;
+  box-shadow: 0 0.357em 0.714em 0 rgba(38, 94, 142, 0.2);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=global.css.map */

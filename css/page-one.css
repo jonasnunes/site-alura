@@ -1,22 +1,3 @@
-a.button-link {
-  width: 100%;
-  border-radius: 2.285em;
-  background-color: #A3FFBF;
-  text-decoration: none;
-  text-align: center;
-  color: #051933;
-  padding: 1.428em;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.875rem;
-  max-width: 19.3em;
-  margin: 4.2em auto 0;
-  display: block;
-  box-shadow: 0 0.357em 0.714em 0 rgba(38, 94, 142, 0.2);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
 #corpo {
   width: 375px;
   padding: 1.5rem 1rem;
@@ -31,7 +12,6 @@ a.button-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Inter", sans-serif;
   padding-bottom: 1rem;
 }
 #corpo .header p {
@@ -61,7 +41,6 @@ a.button-link {
 #corpo .nav {
   border-block: 1px solid #fff;
   padding: 1rem;
-  font-family: "Inter", sans-serif;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
@@ -77,7 +56,6 @@ a.button-link {
   color: #b1b0b0;
 }
 #corpo .presentation {
-  font-family: "Inter", sans-serif;
   color: #fff;
   margin-bottom: 15rem;
 }
@@ -146,7 +124,6 @@ a.button-link {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  font-family: "Inter", sans-serif;
   color: #051932;
 }
 #corpo .know-more .iframe {
@@ -169,17 +146,6 @@ a.button-link {
   padding-bottom: 2rem;
   line-height: 150%;
 }
-#corpo .know-more-presentation button {
-  background-color: #A3FFBF;
-  padding: 1rem;
-  border-radius: 2rem;
-  width: 90%;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: #051932;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0.285em 0.571em 0;
-}
 #corpo .know-more-presentation-more {
   margin-top: 2rem;
 }
@@ -200,7 +166,6 @@ a.button-link {
   background-image: url(../assets/leme-alura-mobile.svg);
   background-repeat: no-repeat;
   background-position: 130% -4%;
-  font-family: "Inter", sans-serif;
   padding-block: 2.5rem;
 }
 #corpo .formations p.title {
@@ -368,7 +333,6 @@ a.button-link {
   background-color: #eee;
   margin-inline: -1rem;
   padding: 3rem 1rem;
-  font-family: "Inter", sans-serif;
 }
 #corpo .divers p.title {
   color: #167bf7;
@@ -402,8 +366,8 @@ a.button-link {
   width: 45px;
   height: 45px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 #corpo .divers-depoiments .cite {
   line-height: 150%;
@@ -429,7 +393,7 @@ a.button-link {
   display: block;
   margin: auto;
   background-color: #fff;
-  color: #051933;
+  color: #051932;
   font-weight: 700;
   font-size: 0.9rem;
   text-align: center;
@@ -526,7 +490,6 @@ a.button-link {
   background-color: #eee;
   margin-inline: -1rem;
   padding: 3rem 1rem;
-  font-family: "Inter", sans-serif;
 }
 #corpo .business p.title {
   font-family: "Courier New", monospace;
@@ -564,13 +527,11 @@ a.button-link {
 }
 #corpo .business a:hover {
   box-shadow: 0 3px 11px 0 rgba(38, 94, 142, 0.2);
-  -webkit-transform: translateY(1px);
   transform: translateY(1px);
 }
 #corpo .companies-using-alura {
   background-color: #051932;
   padding: 2.5em;
-  font-family: "Inter", sans-serif;
 }
 #corpo .companies-using-alura p {
   margin-bottom: 1.5em;
@@ -590,8 +551,8 @@ a.button-link {
 }
 #corpo .companies-using-alura .companies-list {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 #corpo .companies-using-alura .companies-list li {
@@ -612,7 +573,6 @@ a.button-link {
   background-repeat: no-repeat;
   background-position: right 10% top;
   color: #fff;
-  font-family: "Inter", sans-serif;
   padding: 5.375rem 2rem 4.375rem;
   overflow: hidden;
   margin-inline: -1rem;
@@ -639,15 +599,9 @@ a.button-link {
   background-position: center;
   width: 100%;
   min-height: 370px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: end;
   justify-content: end;
   border-radius: 9px;
   overflow: hidden;
@@ -709,7 +663,6 @@ a.button-link {
   background-color: #051932;
   padding: 3.75em 0;
   background-image: radial-gradient(circle at 47% 59%, #093366, #051933 60%);
-  font-family: "Inter", sans-serif;
   margin-top: -3rem;
   margin-inline: -1rem;
   padding-inline: 1rem;
@@ -732,9 +685,9 @@ a.button-link {
 }
 #corpo .mobile-section-buttons {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 2rem;
   gap: 1rem;
 }
@@ -760,7 +713,6 @@ a.button-link {
 }
 #corpo .prices {
   background-color: #fff;
-  font-family: "Inter", sans-serif;
   margin-inline: -1rem;
   padding: 1rem;
 }
@@ -789,9 +741,9 @@ a.button-link {
 }
 #corpo .prices .payments-header {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   line-height: 250%;
   margin-bottom: 1rem;
 }
@@ -804,9 +756,9 @@ a.button-link {
   line-height: 220%;
   color: #093366;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #corpo .prices .payments-section p.title {
   display: flex;
@@ -846,15 +798,14 @@ a.button-link {
 }
 #corpo .advantages {
   padding: 4.132em 0;
-  font-family: "Inter", sans-serif;
   font-size: 1.2rem;
   color: #e5f1ff;
   background-color: #093366;
   margin-inline: -1rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 2.5rem;
 }
 #corpo .advantages-div {
@@ -865,7 +816,6 @@ a.button-link {
 #corpo .footer {
   padding: 2.5rem 3rem;
   color: #fff;
-  font-family: "Inter", sans-serif;
   text-align: center;
 }
 #corpo .footer-header h2.title {
@@ -954,7 +904,6 @@ a.button-link {
   background-color: #031326;
   margin-inline: -1rem;
   padding: 2.5rem 4rem;
-  font-family: "Inter", sans-serif;
 }
 #corpo .courses p.title {
   color: #fff;
