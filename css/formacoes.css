@@ -73,3 +73,45 @@ section.formacoes-title h1{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+section.formacoes-about{
+	background-color: #fff;
+	box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
+	border: solid 1px #eff1f9;
+	padding: 2.1875em 1rem;
+	margin-inline: -1rem;
+}
+
+section.formacoes-about{
+	color: var(--color-paragraph);
+}
+
+section.formacoes-about .chamadas-header p.title{
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	margin-bottom: .5em;
+}
+
+section.formacoes-about .chamadas-header p.description{
+	line-height: 1.4;
+}
+
+section.formacoes-about .chamadas-first,
+section.formacoes-about .chamadas-second,
+section.formacoes-about .chamadas-third{
+	margin-block: 3.2rem;
+}
+
+section.formacoes-about .chamadas-first p.title,
+section.formacoes-about .chamadas-second p.title,
+section.formacoes-about .chamadas-third p.title{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: .5em;
+}
+
+section.formacoes-about .chamadas-first p.description,
+section.formacoes-about .chamadas-second p.description,
+section.formacoes-about .chamadas-third p.description{
+	line-height: 1.4;
+}
