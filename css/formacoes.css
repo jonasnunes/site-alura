@@ -52,3 +52,24 @@
 .nav a:hover{
 	color: var(--link-hover)
 }
+
+section.formacoes-title{
+	padding-bottom: 6.688em;
+}
+
+section.formacoes-title h3{
+	color: #fff;
+	line-height: 2.5;
+	font-family: "Courier New", monospace;
+}
+
+section.formacoes-title h1{
+	color: #fff;
+	font-size: 2.125rem;
+	font-weight: 400;
+	line-height: 1.2;
+	background: -webkit-linear-gradient(left,#167bf7 0%,#a3ffbf 46%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
