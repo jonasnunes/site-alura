@@ -1,0 +1,49 @@
+:root{
+	/* backgrounds */
+	--bg-color: #051932;
+	--bg-button: #A3FFBF;
+	--bg-button-form: #072347;
+	--bg-container: #093366;
+	--bg-subscribe: #146EDC;
+	--bg-depoiments: #051e3d;
+	--bg-courses: #031326;
+
+	/* gradients */
+	--gradient-form: #072347;
+	--gradient-form-2: #082F5F;
+
+	/* border colors */
+	--border-color: #2A7AE4;
+	--border-hover: #308dff;
+	--border-red-button: #DB4A39;
+	--border-blue-button: #325BAA;
+	--border-form: #167BF7;
+
+	/* fonts */
+	--inter-font: 'Inter', sans-serif;
+	--lato-font: 'Lato', sans-serif;
+	--open-sans: 'Open Sans', sans-serif;
+
+	/* other colors */
+	--link-hover: #b1b0b0;
+	--color-paragraph: #093366;
+	--color-title: #167bf7;
+
+	/* card colors */
+	--color-card-programation: #00C86F;
+	--color-card-frontend: #6BD1FF;
+	--color-card-datascience: #8FC33A;
+	--color-card-devops: #F16165;
+	--color-card-design: #CE69B5;
+	--color-card-mobile: #FFBA05;
+	--color-card-inovation: #FF8C2A;
+
+	/* bg icons */
+	--bg-icon-programation: #03544C;
+	--bg-icon-frontend: #26577A;
+	--bg-icon-datascience: #36583B;
+	--bg-icon-devops: #513349;
+	--bg-icon-design: #4A3765;
+	--bg-icon-mobile: #554F2A;
+	--bg-icon-inovation: #554136;
+}
