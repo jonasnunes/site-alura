@@ -116,6 +116,27 @@ section.formacoes-about .chamadas-third p.description{
 	line-height: 1.4;
 }
 
+div.container{
+	padding-block: 2em;
+	color: var(--bg-color);
+	background-color: #eee;
+	margin-inline: -1rem;
+	padding-inline: 1rem;
+}
+
+div.container-title{
+	line-height: 1.2;
+}
+
+div.container-title p.title{
+	font-family: "Courier New", monospace;
+}
+
+div.container-title p.description{
+	width: 12em;
+	font-size: 1.375rem;
+}
+
 @media(max-width: 768px){
 	#corpo{
 		width: 768px;
