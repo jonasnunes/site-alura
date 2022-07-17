@@ -119,7 +119,7 @@ section.formacoes-about .chamadas-third p.description{
 div.container{
 	padding-block: 2em;
 	color: var(--bg-color);
-	background-color: #eee;
+	background-color: #f8f9fa;
 	margin-inline: -1rem;
 	padding-inline: 1rem;
 }
@@ -135,6 +135,84 @@ div.container-title p.title{
 div.container-title p.description{
 	width: 12em;
 	font-size: 1.375rem;
+}
+
+div.container-cards{
+	box-shadow: 4px 4px 20px 0 rgba(120,135,182,.1);
+	border: solid 1px #eff1f9;
+	background-color: #fff;
+	margin-top: 1.875em;
+	padding: 1.5rem;
+}
+
+header.container-cards-header{
+	display: flex;
+	color: var(--color-card-programation);
+}
+
+div.container-cards-header-img img{
+	width: 3.125em;
+	height: 3.125em;
+	margin: -.3125em .625em 0 0;
+}
+
+div.container-cards-header-p p.title{
+	font-size: .875rem;
+	font-weight: bold;
+}
+
+div.container-cards-header-p p.subtitle{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+div.container-cards-faixa{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-card-programation);
+	font-size: .813rem;
+	line-height: 2.5;
+	color: #fff;
+	width: calc(100% + 3rem);
+	margin-block: 2rem;
+	margin-inline: -1.5rem;
+}
+
+div.container-cards-faixa i.bi-fast-forward{
+	color: #fff;
+}
+
+div.cards{
+	padding: 1.0625em 6.75em .6875em 1.125em;
+	border-radius: 5px;
+	border: solid 1px #ecf5ff;
+	margin-bottom: 1.8125em;
+}
+
+div.cards a.cards-title-link{
+	max-width: 10.9375em;
+	max-height: 2.25em;
+	font-size: .938rem;
+	line-height: 1.2;
+	font-weight: normal;
+	color: var(--color-cards);
+}
+
+div.cards a.cards-title-link:hover{
+	text-decoration: underline;
+}
+
+div.cards div.cards-cursos{
+	display: flex;
+	gap: .4rem;
+	font-size: .688rem;
+	line-height: 1.82;
+	color: var(--color-cards);
+}
+
+div.cards div.cards-cursos span{
+	color: var(--color-card-programation);
 }
 
 @media(max-width: 768px){
