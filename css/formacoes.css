@@ -147,7 +147,6 @@ div.container-cards{
 
 header.container-cards-header{
 	display: flex;
-	color: var(--color-card-programation);
 }
 
 div.container-cards-header-img img{
@@ -156,27 +155,37 @@ div.container-cards-header-img img{
 	margin: -.3125em .625em 0 0;
 }
 
-div.container-cards-header-p p.title{
+div.container-cards-header-p p.title-programacao,
+div.container-cards-header-p p.subtitle-programacao{
 	font-size: .875rem;
 	font-weight: bold;
+	color: var(--color-card-programation);
 }
 
-div.container-cards-header-p p.subtitle{
+div.container-cards-header-p p.subtitle-programacao{
 	font-size: 1.25rem;
-	font-weight: bold;
 }
 
-div.container-cards-faixa{
+div.container-cards-faixa-programacao,
+div.container-cards-faixa-frontend,
+div.container-cards-faixa-datascience,
+div.container-cards-faixa-devops,
+div.container-cards-faixa-design,
+div.container-cards-faixa-mobile,
+div.container-cards-faixa-inovation{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--color-card-programation);
 	font-size: .813rem;
 	line-height: 2.5;
 	color: #fff;
 	width: calc(100% + 3rem);
 	margin-block: 2rem;
 	margin-inline: -1.5rem;
+}
+
+div.container-cards-faixa-programacao{
+	background-color: var(--color-card-programation);
 }
 
 div.container-cards-faixa i.bi-fast-forward{
@@ -211,8 +220,65 @@ div.cards div.cards-cursos{
 	color: var(--color-cards);
 }
 
-div.cards div.cards-cursos span{
+div.cards div.cards-cursos span.programacao{
 	color: var(--color-card-programation);
+}
+
+div.container-cards-header-p p.title-frontend,
+div.container-cards-header-p p.subtitle-frontend{
+	font-size: .875rem;
+	font-weight: bold;
+	color: var(--color-card-frontend);
+}
+
+div.container-cards-header-p p.subtitle-frontend{
+	font-size: 1.25rem;
+}
+
+div.container-cards-faixa-frontend{
+	background-color: var(--color-card-frontend);
+}
+
+div.cards div.cards-cursos span.frontend{
+	color: var(--color-card-frontend);
+}
+
+div.container-cards-header-p p.title-datascience,
+div.container-cards-header-p p.subtitle-datascience{
+	font-size: .875rem;
+	font-weight: bold;
+	color: var(--color-card-datascience);
+}
+
+div.container-cards-header-p p.subtitle-datascience{
+	font-size: 1.25rem;
+}
+
+div.container-cards-faixa-datascience{
+	background-color: var(--color-card-datascience);
+}
+
+div.cards div.cards-cursos span.datascience{
+	color: var(--color-card-datascience);
+}
+
+div.container-cards-header-p p.title-devops,
+div.container-cards-header-p p.subtitle-devops{
+	font-size: .875rem;
+	font-weight: bold;
+	color: var(--color-card-devops);
+}
+
+div.container-cards-header-p p.subtitle-devops{
+	font-size: 1.25rem;
+}
+
+div.container-cards-faixa-devops{
+	background-color: var(--color-card-devops);
+}
+
+div.cards div.cards-cursos span.devops{
+	color: var(--color-card-devops);
 }
 
 @media(max-width: 768px){
