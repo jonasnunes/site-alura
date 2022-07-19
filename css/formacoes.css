@@ -489,6 +489,108 @@ section.advantages div.advantages-div{
     width: 60%;
 }
 
+footer.footer{
+	padding: 2.5rem 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+header.footer-header h2.title{
+	padding-block: 2rem 1.5rem;
+}
+
+header.footer-header ul.list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    gap: .7rem;
+}
+
+header.footer-header ul.list li a i.bi{
+	font-size: 1.2rem;
+    color: var(--color-paragraph);
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: .3rem;
+}
+
+footer.footer section.container-dl{
+	margin-block: 4.5rem 2rem;
+    text-align: left;
+}
+
+footer.footer section.container-dl dl{
+	padding-bottom: 2rem;
+}
+
+footer.footer section.container-dl dl dt{
+	font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+footer.footer section.container-dl dl dd{
+	line-height: 250%;
+}
+
+footer.footer section.container-dl dl dd a{
+	color: #fff;
+    font-size: .875rem;
+    transition: .5s;
+}
+
+footer.footer section.container-dl dl dd a:hover{
+	color: var(--link-hover);
+}
+
+footer.footer section.container-dl dl #button-whatsapp{
+	display: flex;
+    align-items: center;
+
+    border: 2px solid #34af23;
+    background-color: transparent;
+    padding: .8rem;
+    border-radius: .5rem;
+    font-size: .75rem;
+    height: 40px;
+}
+
+footer.footer section.container-dl dl #button-whatsapp i.bi-whatsapp{
+	color: #34af23;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+footer.footer section.container-dl dl button.button-receber{
+	background-color: var(--bg-color);
+    display: flex;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: .3rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: .875rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+footer.footer section.container-dl dl button.button-receber:hover{
+	border-color: var(--color-title);
+}
+
+footer.footer section.container-dl dl button.button-receber input.input{
+	width: 70%;
+    border: none;
+    background-color: transparent;
+}
+
+footer.footer section.container-dl dl button.button-receber input.input::placeholder{
+	color: #ddd;
+    font-size: .875rem;
+}
+
 @media(max-width: 768px){
 	#corpo{
 		width: 768px;
