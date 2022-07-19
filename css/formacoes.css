@@ -591,6 +591,42 @@ footer.footer section.container-dl dl button.button-receber input.input::placeho
     font-size: .875rem;
 }
 
+section.courses{
+	background-color: var(--bg-courses);
+    margin-inline: -1rem;
+    padding: 2.5rem 4rem;
+}
+
+section.courses p.title{
+	color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+section.courses dt a{
+	color: #fff;
+    font-weight: 700;
+    transition: .3s;
+}
+
+section.courses dt a:hover,
+section.courses dd a:hover{
+	color: var(--link-hover);
+}
+
+section.courses dd,
+section.courses dd a{
+	color: #fff;
+    font-size: .875rem;
+    line-height: 150%;
+    transition: .3s;
+}
+
+section.courses dd{
+	margin-bottom: 1rem;
+}
+
 @media(max-width: 768px){
 	#corpo{
 		width: 768px;
