@@ -460,6 +460,35 @@ section.pro{
 	border-top: 12px solid var(--color-title);
 }
 
+section.prices a.prices-link{
+	display: block;
+    padding-block: 2rem;
+    color: var(--color-paragraph);
+    font-size: .875rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section.advantages{
+	padding: 4.132em 0;
+    font-size: 1.2rem;
+    color: #e5f1ff;
+    background-color: var(--bg-container);
+    margin-inline: -1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+section.advantages div.advantages-div{
+	text-align: center;
+    line-height: 180%;
+    width: 60%;
+}
+
 @media(max-width: 768px){
 	#corpo{
 		width: 768px;
