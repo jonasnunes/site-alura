@@ -281,6 +281,63 @@ div.cards div.cards-cursos span.devops{
 	color: var(--color-card-devops);
 }
 
+div.container-cards-header-p p.title-design,
+div.container-cards-header-p p.subtitle-design{
+	font-size: .875rem;
+	font-weight: bold;
+	color: var(--color-card-design);
+}
+
+div.container-cards-header-p p.subtitle-design{
+	font-size: 1.25rem;
+}
+
+div.container-cards-faixa-design{
+	background-color: var(--color-card-design);
+}
+
+div.cards div.cards-cursos span.design{
+	color: var(--color-card-design);
+}
+
+div.container-cards-header-p p.title-mobile,
+div.container-cards-header-p p.subtitle-mobile{
+	font-size: .875rem;
+	font-weight: bold;
+	color: var(--color-card-mobile);
+}
+
+div.container-cards-header-p p.subtitle-mobile{
+	font-size: 1.25rem;
+}
+
+div.container-cards-faixa-mobile{
+	background-color: var(--color-card-mobile);
+}
+
+div.cards div.cards-cursos span.mobile{
+	color: var(--color-card-mobile);
+}
+
+div.container-cards-header-p p.title-inovation,
+div.container-cards-header-p p.subtitle-inovation{
+	font-size: .875rem;
+	font-weight: bold;
+	color: var(--color-card-inovation);
+}
+
+div.container-cards-header-p p.subtitle-inovation{
+	font-size: 1.25rem;
+}
+
+div.container-cards-faixa-inovation{
+	background-color: var(--color-card-inovation);
+}
+
+div.cards div.cards-cursos span.inovation{
+	color: var(--color-card-inovation);
+}
+
 @media(max-width: 768px){
 	#corpo{
 		width: 768px;
