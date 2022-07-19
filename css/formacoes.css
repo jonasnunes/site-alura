@@ -338,6 +338,128 @@ div.cards div.cards-cursos span.inovation{
 	color: var(--color-card-inovation);
 }
 
+section.searchCard{
+	position: relative;
+	background-image: radial-gradient(circle at 50% 41%,#051933,#167bf7 100%);
+	/*filter: blur(30px);*/
+	margin-inline: -1rem;
+	padding: 2rem 1rem;
+}
+
+section.searchCard p{
+	font-size: 1.375rem;
+	line-height: 1.4;
+	color: #FFF;
+}
+
+section.searchCard form{
+	display: flex;
+	flex-direction: column;
+	gap: .7rem;
+	margin-top: 2rem;
+}
+
+section.searchCard form input{
+	padding: .8rem;
+	border-radius: 5px;
+	background-color: #fff;
+	color: var(--bg-color);
+	font-size: 1.2rem;
+}
+
+section.searchCard form input[type="submit"]{
+	cursor: pointer;
+}
+
+section.prices{
+	background-color: #fff;
+    margin-inline: -1rem;
+    padding: 1rem;
+}
+
+section.prices h2.title{
+	padding-top: 70px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-title);
+    text-align: center;
+    letter-spacing: -.018em;
+}
+
+div.container-payments section.payments{
+	background-image: url(../assets/icon-plan-premium-2.svg);
+    background-repeat: no-repeat;
+    width: 90%;
+    margin-block: 2rem;
+    margin-inline: auto;
+    padding: 2.5rem 2rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(120,135,182,.3);
+    border-radius: 1px;
+}
+
+section.payments header.payments-header{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 250%;
+    margin-bottom: 1rem;
+}
+
+section.payments header.payments-header h3{
+	text-transform: uppercase;
+    color: var(--color-title);
+    font-weight: 400;
+}
+
+section.payments section.payments-section{
+	line-height: 220%;
+    color: var(--color-paragraph);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+section.payments section.payments-section p.title{
+	display: flex;
+    align-items: center;
+}
+
+section.payments section.payments-section span{
+	font-size: 2.188rem;
+    letter-spacing: .001em;
+}
+
+section.payments ul.payments-list li{
+	display: flex;
+    gap: 1rem;
+    font-size: .875rem;
+    color: var(--color-paragraph);
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+section.payments ul.payments-list li i.bi-check-lg{
+	color: var(--color-title);
+    height: 12px;
+    width: 15px;
+    font-size: 1.2rem;
+}
+
+section.payments ul.payments-list li i.off{
+	color: #dce5f1;
+}
+
+section.pro{
+	border-top: 12px solid var(--color-title);
+}
+
 @media(max-width: 768px){
 	#corpo{
 		width: 768px;
